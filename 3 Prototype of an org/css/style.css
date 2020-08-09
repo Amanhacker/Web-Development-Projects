@@ -9,7 +9,7 @@ html {
 }
 
 .header-container {
-    background-color: rgb(211, 235, 192);
+    background-image: url("../images/footer.jpg");
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -59,9 +59,10 @@ html {
     font-weight: bold;
     font-size: 1em;
     color: black;
+    margin-top: 2em;
     padding: 0.5em;
     box-shadow: bisque;
-    background-color: rgb(97, 219, 97);
+    background-color: bisque;
 }
 
 .nav-links ui li a h1{
@@ -69,11 +70,11 @@ html {
 }
 
 .nav-links ui li a:hover {
-    color: white;
+    color: orangered;
 }
 
 .button {
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-bottom: 3vh;
 }
 
@@ -82,6 +83,7 @@ html {
     border-radius: 5px;
     height: 5em;
     margin-top: 1em;
+    color: white;
     margin-bottom: 2em;
 }
 
@@ -206,6 +208,7 @@ html {
     padding: 1em;
     text-transform: uppercase;
 }
+
 
 .form-page {
     display: flex;

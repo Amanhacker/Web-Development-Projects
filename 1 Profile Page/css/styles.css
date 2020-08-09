@@ -34,7 +34,7 @@ header h1{
 }
 
 .section-1 img{
-    height: 40vh;
+    height: 35vh;
     width: 25vw;
     border-radius: 10%;
 }
@@ -42,24 +42,30 @@ header h1{
 .section-1 p{
     margin: auto;
     text-align: justify;
-    padding-top: 2em;
-    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 6em;
     font-size: 3vh;
-    justify-content: center;
     width: 50vw;
+    justify-content: center;
     color: black;
     height: 2vh;
+    font-weight: bold;
+    margin-left: 26vw;
 }
 
 .section-1 a{
     text-decoration: none;
     columns: blue;
     background-color: khaki;
-    padding: 1vh 1vw;
-    margin-top: 5vh;
+    padding: 2vh 1vw;
     border-radius: 1em;
     font-size: 1.23em;
     font-style: bold;
+    margin-left: 0.5vw;
+}
+
+.section-1 a:hover {
+    color:orangered;
 }
 
 .section-1 a-hover{
