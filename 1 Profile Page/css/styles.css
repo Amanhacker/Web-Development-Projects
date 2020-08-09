@@ -2,7 +2,10 @@ body {
     margin: 0;
     padding: 0%;
 }
-
+header{
+    position: fixed;
+    width: 100%;
+}
 header h1{
     margin: 0;
     color: rgb(235, 64, 12);
@@ -15,6 +18,7 @@ header h1{
 .section-1{
     margin: 0;
     padding: 0%;
+    padding-top: 7em;;
     background-image: url("../images/background-updated.jpg");
     background-size: cover;
     height: 85vh;
@@ -33,13 +37,12 @@ header h1{
     height: 40vh;
     width: 25vw;
     border-radius: 10%;
-    %size: 0em;
 }
 
 .section-1 p{
     margin: auto;
     text-align: justify;
-    padding-top: 4em;
+    padding-top: 2em;
     padding-bottom: 3em;
     font-size: 3vh;
     justify-content: center;
