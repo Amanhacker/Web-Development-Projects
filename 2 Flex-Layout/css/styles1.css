@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    background-color: black;
+}
+
+.branding img{
+    margin-left: 2vw;
+    width: 7vw;
+    height: 11vh;
+    border-radius: 2px;
+    background-color: rgb(231, 229,221);
+    opacity: 0.9;
+    padding:0%;
+}
+
+.branding img:hover {
+    opacity: 0.7;
+}
+
+.left-corner {
+    padding: 1em;
+    height: 15vh;
+    align-items: center;
+}
+
+.nav-links{
+    margin-left: 25vh;
+}
+
+.nav-links ui{
+    list-style-type: none;    
+}
+
+
+.nav-links ui li {
+    display: inline;
+    margin-right: 2em;
+}
+
+.nav-links ui li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: orangered;
+}
+
+.nav-links ui li a:hover {
+    color: white;
+}
+
+
+.button-style {
+    background-color: orangered;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid orangered;
+    padding: 0.5em;
+    margin-right: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-style:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.section-1 {
+    padding-top: 9em;
+    padding-left: 13em;
+    color: orangered;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    height: 85vh;
+}
+
+.section-1 herounit-mask {
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 100vh;
+    
+}
+
+.section-1 herounit-caption {
+    padding-top: 5vw;
+}
+
+.section-1 h1 {
+    margin: 0em;
+    padding-left: 5vw;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.section-1 h1:nth-child(odd){
+    color: brown;
+    font-size: 1.7em;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+}
+
+.modules {
+    margin: 0;
+    padding: 0%;
+    padding-top: 2vh;
+    background-image: url("../images/modules-background.jpg");
+    background-size: cover;
+    height: 100vh;
+    border-color: teal;
+
+}
+
+.module-header {
+    font-size: 1.7em;
+    margin-left :24em;
+    padding: 0.75em;
+    width: 10vw;
+    box-shadow: black;
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: orangered;
+    border: 1.5px solid rgb(214, 206, 206);
+
+
+}
+
+.paper-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: column nowrap;
+    justify-content: space-around;
+    width: 18vw;
+    height: 75vh;
+    margin-left: 38em;
+}
+.paper {
+    padding: 1.7em;
+    margin: 5em;
+}
+
+.paper h1 {
+    color:orangered;
+    padding-left: 3.3em;;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: cyan;
+}
+
+.paper img {
+    width: 8em;
+    height: 10vh;
+    padding: 2em;
+    border-radius: 2px;
+    background-color: lightcyan;
+    opacity: 0.9;
+}
+
+.paper p {
+    padding : 1em;
+}
+
+footer {
+    background-image: url("../images/footer.jpg");
+    background-size: cover;
+    height: 30vh;
+    margin: 0 auto;
+    padding-top:5vh;
+}
+
+footer h2{
+    margin-left: 35%;
+    margin-top: 2em;
+}
+
+.icons {
+    display: flexbox;
+    margin-left: 20.13em;
+    padding-top:2vh;
+    padding-left: 1em;
+    background-color: blanchedalmond;
+    margin-right: 22.6em;
+    box-shadow: blue;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.icons:hover{
+    opacity: 0.6;
+    background-color: white;
+}
+
